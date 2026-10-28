@@ -2,7 +2,7 @@
    순백 바탕 · 상자 대신 가는 선과 여백 · 주요 버튼·선택은 검정 · 강조색(램프)은 배지·점·숫자에만 */
 :root {
   --paper: #ffffff; --card: #ffffff; --fog: #f4f4f4; --hover: #fafafa; --line: #eeeeee; --lineStrong: #dddddd;
-  --ink: #111111; --soft: #444444; --grey: #888888;
+  --ink: #111111; --soft: #444444; --grey: #767676;
   --accent: #c0652e; --pale: #fbefe6; --red: #c2412d; --redPale: #fbeae6; --green: #3f7a4a; --greenPale: #e7f2e9;
   --amber: #9a6a12; --amberPale: #fbf1dc;
 }
