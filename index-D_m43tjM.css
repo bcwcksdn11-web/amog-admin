@@ -181,3 +181,15 @@ nav a.on .nav-count { background: #fff; color: var(--ink); }
 .score { font-weight: 700; color: var(--accent); cursor: help; }
 details { margin-top: 10px; } summary { cursor: pointer; }
 @media (max-width: 1100px) { .intro-grid { grid-template-columns: 1fr; } }
+
+/* 모닥불 (2026-10-28) */
+.cm-list { display: flex; flex-direction: column; gap: 12px; }
+.cm-post { display: flex; flex-direction: column; gap: 4px; }
+.cm-post.dim { opacity: .6; }
+.cm-head, .cm-foot { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+.cm-photos { display: flex; gap: 6px; margin-top: 6px; }
+.cm-foot { margin-top: 6px; }
+.cm-foot .actions, .cm-c .actions { display: flex; gap: 6px; }
+.cm-comments { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 10px; }
+.cm-c { display: flex; flex-direction: column; gap: 3px; padding-left: 10px; border-left: 2px solid var(--line); }
+.cm-c.dim { opacity: .55; }
